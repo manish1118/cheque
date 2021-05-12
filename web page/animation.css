@@ -1,0 +1,24 @@
+@keyframes change-color{
+	0%  {background-color:violet;}
+    10% {background-color:indigo; top:50px;left:20px}
+    20% {background-color:blue;top:75px;left:50px}
+	30% {background-color:green;top:100px;left:75px}
+    50% {background-color:yellow;top:150px;left:100px}
+	75% {background-color:orange;top:200px;left:150px}
+	100%{background-color:red;top:250px;left:200px}
+}
+
+body{
+	background-color:black;
+}
+h1{
+    background-color:skyblue;
+	font-size:150px;
+}
+.box-animation:hover {
+	position:relative;
+	border: 5px solid black;
+	animation-name:change-color;
+	animation-duration:2s;
+	animation-iteration-count:1;
+}

@@ -1,0 +1,64 @@
+common css selectors
+#id name to use id 
+.class name to use class
+* to select everything in html file
+we can use name of the element like h1 , h2, h3, h4, h5 ,h6 ,p
+to select to elements use commas","
+to select from unordered list use ul> li
+to select element below specific element like p+ h1 (if we want to select element from h1 which is below p)
+to select html attribute we can use "[title name ]"
+to select any text use [title*="write here whatever you want to select"]
+input : checked{
+	attribute you wanna checked
+}
+input: focused {
+	attribute OF focus
+}
+for general input :-
+input [type="checkbox"]: checked {
+	
+}
+applying style on hover
+h2 :hover{
+	
+}
+selecting child
+ul> li:first-child {
+	it will select the first element
+}
+
+ul>li :last-child {
+	to select last child
+}
+ul> li:nth-last-child(we can fill any number here){
+	
+}
+for reference visite:-https://www.w3schools.com/cssref/css_selectors.asp 
+for flex containers
+.flex-container{
+	display:flex;
+	flex-direction:row;
+	flex-direction:row-reverse;
+	
+	justify-content:flex-start; (flex items on the left)
+	justify-content:flex end;(on right)
+	justify-content:flex-center;
+	justify-content:space-between;(to put space between divs)
+	justify-content:space-around;(to put space around the divs)
+	
+	flex-wrap:wrap;(to wrap the divs dont allow the text to shrink)
+	flex-wrap:wrap-reverse;
+	flex-wrap:no-wrap;
+	
+	align-items:start;(align the items at the top)
+	align-items:end;(at the end)
+	align-items:center;(center)
+	
+	align-content:flex-start;(putting space at the end of page)
+	align-content:flex-end;
+	align-content:flex-center;
+	align-content:space-between;
+	align-content:space-around;
+	we can use "align-self" option in html file to control the specific attribute
+for more flexboxsheet visite https://jonitrythall.com/content/images/flexboxsheet.pdf	
+}

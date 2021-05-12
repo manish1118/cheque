@@ -1,0 +1,31 @@
+notes for the animation
+start with :-
+
+@keyframe change-color {
+from{}(from which color )
+to{}(to which color)
+we can also give percentages insted of from-to like:- 
+0%
+10%
+20%
+30%
+50%
+75%
+100%
+we can also make the postion relative to move the box acrose the file
+we can delay the animation by using animation delay
+we can hover our animation by using .box-animation:hover
+}
+
+#importing css files
+to import css file just type 
+ 
+ @import "name of the file with in the quation marks"
+ 
+ warning importing too many files may slow down the web-site
+ 
+# css browser support reference
+visite https://www.w3schools.com/cssref/css3_browsersupport.asp
+
+#for framework 
+visite https://getbootstrap.com/
